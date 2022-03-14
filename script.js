@@ -18,9 +18,9 @@ function form_details(){
     password=document.getElementById('password').value
     gender="";
     if(document.getElementsByName('sex')[0].checked){
-        gender=document.getElementsByName('sex')[0].value
+        gender="Male"
     }if(document.getElementsByName('sex')[1].checked){
-        gender=document.getElementsByName('sex')[1].value
+        gender="Female"
     }
     subscribe=document.getElementById("newsletter").checked;
     if(subscribe==false){
@@ -57,10 +57,8 @@ data.forEach(function(element,index){
     let name=element['Name']
     let age=element['Age']
     let email=element['Email']
-    //let password=element['Password']
     let gender=element['Gender']
     let subscribe=element['Subscribe']
-    // let ediit_btn="<button>Edit</button>"
     let edit_btn=document.createElement('button')
     edit_btn.innerText='Edit'
     edit_btn.setAttribute('id',index)
