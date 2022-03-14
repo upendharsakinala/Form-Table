@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+*{
+    font-family: 'Oxygen', sans-serif; 
+}  
+h2{
+    text-decoration: underline;
+} 
+table,tr,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #f8fafc;
+}
+
+.sample_container{
+    margin-bottom: 15px;
+}
+
+#newsletter{
+width: 15px;
+height: 13px;
+padding:10px;
+cursor: pointer;
+}
+
+#male ,#female{
+    cursor: pointer;
+}
+
+
+@media screen and (min-width:1000px) and (max-width:2000px){
+    .container{
+        width:350px;
+        margin:auto;
+        background-color:#FFA07A;
+        padding-left: 100px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border: 2px solid #f8fafc;
+        border-radius: 15px;    
+    }
+}
+
+@media screen and (max-width:800px){
+    .container{
+    width:350px;
+    margin:auto;
+    background-color:#f8fafc;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid #f8fafc;
+    border-radius: 15px;  
+}}
+
+.container{
+    width:350px;
+    margin:auto;
+    background-color:#f8fafc;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid #f8fafc;
+    border-radius: 15px;   
+}
+
+label{
+    font-weight:bold;
+}
+
+span{
+    font-weight: bolder;
+}
+
+input[type="text"],input[type="number"],input[type="email"],input[type="password"]{
+    padding:7px;
+    width:60%;
+    border-radius: 4px;
+}
+.buttons{
+ border: 1px solid black;
+ border-radius: 5px;   
+ padding: 8px;
+ color: white;
+ margin-right:30px;
+ margin-left: 12px;
+ background-color: black;
+}
+.buttons:hover{
+    background-color: rgb(247, 243, 243);
+    color: black;
+}
